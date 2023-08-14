@@ -1,0 +1,67 @@
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+/* card-services */
+.card i {
+  font-size: 50px;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-top: 20px;
+}
+
+.card-paragraph {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.1;
+}
+
+/* card-testimonials */
+.card-qualification {
+  display: flex;
+  gap: .5rem;
+}
+
+.card-qualification i {
+  font-size: 18px;
+}
+
+.card-comment {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.card-author {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* card-product */
+.cardProduct-image {
+  width: 100%;
+}
+
+.cardProduct-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.cardProduct-price {
+  font-weight: 100;
+}
+
+@media (max-width: 768px) {
+  .sectionGallery > * {
+    width: 100%;
+  }
+}

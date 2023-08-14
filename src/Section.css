@@ -1,0 +1,147 @@
+.section {
+  padding: 6rem 0 4rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* section-link */
+.sectionLink {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.link-icon {
+  margin: 0 1rem;
+}
+
+.link:hover {
+  transform: scale(1.1);
+}
+
+/* section-services */
+.sectionGallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.sectionGallery > * {
+  width: calc(100% / 3 - 10px);
+}
+
+@media (max-width: 768px) {
+  .sectionGallery > * {
+    width: 100%;
+  }
+}
+
+/* section-paragraph */
+.sectionParagraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  z-index: 10;
+}
+
+.sectionParagraph-title {
+  width: 70%;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.sectionParagraph-paragraph {
+  width: 60%;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.backgroundIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.backgroundIcon i {
+  position: inherit;
+  opacity: 0.1;
+}
+
+.backgroundIcon .icon1 {
+  font-size: 250px;
+  transform: rotate(330deg);
+  top: -120px;
+  left: 30%;
+}
+
+.backgroundIcon .icon2 {
+  font-size: 200px;
+  transform: rotate(45deg);
+  bottom: 0;
+  left: 50%;
+}
+
+/* section-cardInfo */
+.cardInfo {
+  background-color: rgb(255, 209, 255);
+  padding: 3rem;
+  border-radius: 2rem;
+  display: flex;
+  position: relative;
+}
+
+.cardInfo-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.cardInfo-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: .9;
+}
+
+.cardInfo-paragraph {
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 1.1;
+}
+
+.cardInfo-image {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .cardInfo-content {
+    width: 100%;
+  }
+
+  .cardInfo-image {
+    display: none;
+  }
+}

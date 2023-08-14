@@ -1,0 +1,36 @@
+.slider {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 80vh;
+  align-items: center;
+}
+
+.sliderContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px
+}
+
+.sliderContent-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.sliderContent-paragraph {
+  margin-top: 10px;
+  line-height: 1;
+}
+
+.sliderImage {
+  height: 100%;
+  position: relative;
+}
+
+.sliderImage-img {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+}
