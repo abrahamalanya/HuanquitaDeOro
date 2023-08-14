@@ -1,0 +1,48 @@
+.cardDetalle {
+  background-color: var(--white);
+  color: var(--black);
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  position: relative;
+}
+
+/* card-services */
+.cardDetalle i {
+  font-size: 50px;
+  z-index: 10;
+}
+
+.cardDetalle-title {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-top: 20px;
+  z-index: 10;
+}
+
+.cardDetalle-paragraph {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  z-index: 10;
+}
+
+.paint {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  transform: rotate(45deg) scale(1);
+  background-color: rgba(255, 217, 0, 0.377);
+  position: absolute;
+  transition: transform 0.8s ease;
+}
+
+.cardDetalle:hover .paint {
+  transform: rotate(0deg) scale(1.5);
+  transition: 0.5s;
+  background-color: gold;
+}

@@ -1,0 +1,143 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "icon": "chart-line",
+      "title": "El Mejor Precio",
+      "description": "Ofrecemos el mejor precio del mercado."
+    },
+    {
+      "id": 2,
+      "icon": "rabbit",
+      "title": "Variedad de Razas",
+      "description": "Tenemos una amplia gama de razas de cuyes disponibles."
+    },
+    {
+      "id": 3,
+      "icon": "stethoscope",
+      "title": "Salud y Cuidados",
+      "description": "Nuestros cuyes son cuidadosamente monitoreados y tratados por veterinarios."
+    },
+    {
+      "id": 4,
+      "icon": "truck",
+      "title": "Envío Seguro",
+      "description": "Realizamos envíos seguros y confiables para que tus cuyes lleguen a ti en perfectas condiciones."
+    },
+    {
+      "id": 5,
+      "icon": "comments",
+      "title": "Asesoramiento Personalizado",
+      "description": "Nuestro equipo experto está listo para brindarte asesoramiento personalizado sobre la crianza y cuidado de cuyes."
+    },
+    {
+      "id": 6,
+      "icon": "leaf",
+      "title": "Alimentación Nutritiva",
+      "description": "Proporcionamos una alimentación equilibrada y nutritiva para garantizar el crecimiento saludable de los cuyes."
+    },
+    {
+      "id": 7,
+      "icon": "file-alt",
+      "title": "Documentación Completa",
+      "description": "Te proporcionamos toda la documentación necesaria, incluyendo registros de salud y procedencia, para tu tranquilidad."
+    },
+    {
+      "id": 8,
+      "icon": "globe",
+      "title": "Envíos a Nivel Nacional",
+      "description": "Realizamos envíos a todo el país, asegurando que puedas acceder a nuestros cuyes sin importar dónde te encuentres."
+    },
+    {
+      "id": 9,
+      "icon": "award",
+      "title": "Experiencia en Criar Cuyes",
+      "description": "Con años de experiencia en la cría de cuyes, garantizamos la calidad de nuestros productos y servicios."
+    },
+    {
+      "id": 10,
+      "icon": "handshake",
+      "title": "Relación de Confianza",
+      "description": "Trabajamos para construir relaciones sólidas y confiables con nuestros clientes, basadas en la honestidad y el respeto."
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "image": "https://images.pexels.com/photos/4383760/pexels-photo-4383760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "title": "Cuy macho adulto",
+      "price": 20.00
+    },
+    {
+      "id": 2,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "title": "Cuy hembra adulta",
+      "price": 22.50
+    },
+    {
+      "id": 3,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "title": "Cuy bebé",
+      "price": 15.99
+    },
+    {
+      "id": 4,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "title": "Cuy de raza especial",
+      "price": 30.00
+    },
+    {
+      "id": 5,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "title": "Cuy de pelaje largo",
+      "price": 27.50
+    },
+    {
+      "id": 6,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "title": "Cuy alimentado con hierbas",
+      "price": 24.99
+    },
+    {
+      "id": 7,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "title": "Cuy con jaula incluida",
+      "price": 40.00
+    },
+    {
+      "id": 8,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "title": "Cuy de colores variados",
+      "price": 28.50
+    },
+    {
+      "id": 9,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "title": "Cuy con accesorios",
+      "price": 32.00
+    },
+    {
+      "id": 10,
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "title": "Cuy de tamaño pequeño",
+      "price": 18.00
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "author": "Joe Doe",
+      "comment": "Los cuyes han alegrado mi hogar. Definitivamente recomendaría esta tienda."
+    },
+    {
+      "id": 2,
+      "author": "Maria Rodriguez",
+      "comment": "Increíble experiencia al recibir un cuy tan saludable y feliz. ¡Gracias!"
+    },
+    {
+      "id": 3,
+      "author": "Carlos Pérez",
+      "comment": "Los cuyes que compré son adorables compañeros. Estoy muy satisfecho."
+    }
+  ]
+}

@@ -5,6 +5,7 @@
 .footerContent {
   padding: 2rem 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -16,7 +17,6 @@
 .footerContent-logo {
   font-size: 1.5rem;
   font-weight: bold;
-
 }
 
 .footerContent-text {
@@ -46,4 +46,21 @@
   font-size: .9rem;
   font-weight: 100;
   letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .footerContent {
+    gap: 1rem;
+  }
+  
+  .footerContent > * {
+    width: 100%;
+  }
+  .footerContent-logo,
+  .footerContent-text,
+  .footerContent-social {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }

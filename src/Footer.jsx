@@ -10,8 +10,8 @@ export function Footer({ logo }) {
           <span>+51 987 675 543</span>
         </div>
         <div className="footerContent-social">
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i className="fa-brands fa-facebook"></i></a>
+          <a href="#"><i className="fa-brands fa-youtube"></i></a>
         </div>
       </div>
       <div className="footerDeveloper">

@@ -20,7 +20,7 @@ export function Slider() {
         379.604L22.1892 391.763C28.9495 404.633 37.4943 416.483 47.5703 426.962L53.9715 
         433.62C91.6791 472.837 143.736 495 198.14 495H273.828H395.624H499.912H644Z" fill="currentColor"></path>
         </svg>
-        <img className="sliderImage-img" src="https://uploads-ssl.webflow.com/64141c3e0a541a198a7ca08f/6418312fc8f533035329a56a_doggy%20optimized.png" />
+        <img className="sliderImage-img" src="https://png.pngtree.com/png-clipart/20210912/original/pngtree-guinea-pig-guinea-pig-png-image_6753795.jpg" />
       </article>
     </section>
   )
