@@ -100,6 +100,13 @@
   left: 50%;
 }
 
+@media (max-width: 768px) {
+  .sectionParagraph-title,
+  .sectionParagraph-paragraph {
+    width: 100%;
+  }
+}
+
 /* section-cardInfo */
 .cardInfo {
   background-color: var(--white);
@@ -133,7 +140,7 @@
 .cardInfo-image {
   width: 50%;
   position: absolute;
-  bottom: 0;
+  bottom: -50px;
   right: 0;
 }
 

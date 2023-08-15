@@ -17,7 +17,10 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Slider></Slider>
+      <Slider
+        title={"Los mejores cuyes de granja del valle del mantaro"}
+        description={"El encanto de los cuyes es inigualable, y en Huanquita de Oro, te ofrecemos una experiencia única para tener uno en tu hogar. Nuestra pasión por la crianza responsable y el amor por estos animales nos convierten en tu mejor elección para obtener un cuy de calidad."}
+        image={"https://i.postimg.cc/GtHrH4bM/cuy3.png"}/>
       <Section>
         <SectionHeader
           title={"Explora Nuestra Colección de Cuyes"} />
@@ -36,7 +39,7 @@ function App() {
         </section>
         <section className="sectionLink">
           <a href="#" className="link">
-            Explorar mas productos
+            Explorar mas
             <i className="fa-duotone fa-arrow-right link-icon"></i>
           </a>
         </section>
@@ -47,15 +50,15 @@ function App() {
             <i className="fa-solid fa-paw-simple icon1"></i>
             <i className="fa-solid fa-paw-simple icon2"></i>
           </div>
-          <h3 className="sectionParagraph-title">Our mission is to provide the best quality services to our flurry friends</h3>
-          <p className="sectionParagraph-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.</p>
+          <h3 className="sectionParagraph-title">Comprometidos con el Bienestar</h3>
+          <p className="sectionParagraph-paragraph">En Huanquita de Oro, nuestra misión es brindar los servicios de mayor calidad para asegurar el bienestar y la felicidad de nuestros adorables cuyes. Desde la crianza hasta la entrega, nos esforzamos por proporcionar una experiencia excepcional para ti y tus nuevos compañeros peludos. Juntos, creamos un hogar donde la alegría y el cuidado son fundamentales. ¡Bienvenido a un mundo dedicado a la felicidad de nuestros cuyes!.</p>
           <ButtonPrimary text={"Quiero saber mas"}></ButtonPrimary>
         </article>
       </Section>
       <Section>
         <SectionHeader
-          title={"Nuestros Servicios"}
-          paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellen sit amet sapien fringilla."} />
+          title={"Cuidado, Variedad y Compromiso"}
+          paragraph={"Nuestra sección de servicios está diseñada para ofrecerte todo lo que necesitas para criar y cuidar a tus cuyes."} />
         <article className="sectionGallery">
           {
             firstSixServices.map((service) => (
@@ -72,19 +75,19 @@ function App() {
       <Section>
         <article className="cardInfo">
           <div className="cardInfo-content">
-            <h4 className="cardInfo-title">We’ll take care of your pets</h4>
-            <p className="cardInfo-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.</p>
-            <ButtonPrimary text={"Discover our services"}></ButtonPrimary>
+            <h4 className="cardInfo-title">Tu Granja de Cuyes de Confianza</h4>
+            <p className="cardInfo-paragraph">Somos tu socio en la crianza de cuyes, ofreciendo cuidado experto y cuyes felices y saludables.</p>
+            <ButtonPrimary text={"Contactarse"}></ButtonPrimary>
           </div>
           <img
             className="cardInfo-image"
-            src="https://uploads-ssl.webflow.com/64141c3e0a541a198a7ca08f/641470cf1c32e36fcea2b297_qwertyuiop%5B-1.png" />
+            src="https://i.postimg.cc/GtHrH4bM/cuy3.png" />
         </article>
       </Section>
       <Section>
         <SectionHeader
-          title={"What our patrons say about us"}
-          paragraph={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellen sit amet sapien fringilla."} />
+          title={"Descubre lo que Nuestros Clientes Aman de Nosotros"}
+          paragraph={"Explora testimonios sinceros que capturan la felicidad que nuestros clientes experimentan con nuestros servicios."} />
         <section className="sectionGallery">
           {
             testimonials.map((testimonial) => (
@@ -104,7 +107,10 @@ function App() {
         </section>
       </Section>
       <Footer
-        logo={"Huanquita de Oro"}></Footer>
+        logo={"Huanquita de Oro"}
+        email={"compra@huanquitadeoro.com"}
+        phone={"+51 987 675 543"}
+        facebook="https://www.facebook.com/profile.php?id=100006171587610"></Footer>
     </>
   )
 }

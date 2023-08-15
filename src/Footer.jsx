@@ -1,17 +1,16 @@
 import "./Footer.css"
 
-export function Footer({ logo }) {
+export function Footer({ logo, email, phone, facebook }) {
   return (
     <footer className="footer">
       <div className="footerContent">
         <h5 className="footerContent-logo">{logo}</h5>
         <div className="footerContent-text">
-          <span>compra@huanquitadeoro.com</span>
-          <span>+51 987 675 543</span>
+          <span>{email }</span>
+          <span>{phone }</span>
         </div>
         <div className="footerContent-social">
-          <a href="#"><i className="fa-brands fa-facebook"></i></a>
-          <a href="#"><i className="fa-brands fa-youtube"></i></a>
+          <a href={facebook} target="_blank"><i className="fa-brands fa-facebook"></i></a>
         </div>
       </div>
       <div className="footerDeveloper">

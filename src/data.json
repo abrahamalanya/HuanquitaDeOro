@@ -70,31 +70,31 @@
     },
     {
       "id": 2,
-      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "image": "https://images.pexels.com/photos/50572/guinea-pig-guinea-pig-house-cavia-porcellus-form-domestica-50572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "title": "Cuy hembra adulta",
       "price": 22.50
     },
     {
       "id": 3,
-      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "image": "https://images.pexels.com/photos/63853/guinea-pig-sea-pig-house-cute-guinea-pig-house-63853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "title": "Cuy bebé",
       "price": 15.99
     },
     {
       "id": 4,
-      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "image": "https://images.unsplash.com/photo-1548767797-d8c844163c4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
       "title": "Cuy de raza especial",
       "price": 30.00
     },
     {
       "id": 5,
-      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "image": "https://images.unsplash.com/photo-1512087499053-023f060e2cea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
       "title": "Cuy de pelaje largo",
       "price": 27.50
     },
     {
       "id": 6,
-      "image": "https://lh3.googleusercontent.com/p/AF1QipNGmwGDfTfA--yqeTcnreHec6Z6Qvdz2trLCgRE=w1080-h608-p-no-v0",
+      "image": "https://images.unsplash.com/photo-1618252903592-2b8c90c43a6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
       "title": "Cuy alimentado con hierbas",
       "price": 24.99
     },
