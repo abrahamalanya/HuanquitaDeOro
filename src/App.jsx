@@ -18,12 +18,16 @@ function App() {
     <>
       <Header></Header>
       <Slider
-        title={"Los mejores cuyes de granja del valle del mantaro"}
-        description={"El encanto de los cuyes es inigualable, y en Huanquita de Oro, te ofrecemos una experiencia única para tener uno en tu hogar. Nuestra pasión por la crianza responsable y el amor por estos animales nos convierten en tu mejor elección para obtener un cuy de calidad."}
-        image={"https://i.postimg.cc/GtHrH4bM/cuy3.png"}/>
+        title={"Cuyes Reproductores de Éxito"}
+        description={"Somos expertos en cuyes reproductores de alta genética, brindando calidad y éxito a criadores en Huancayo."}
+        image={"https://images.unsplash.com/photo-1602580184896-799eb5029eee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"} />
       <Section>
         <SectionHeader
-          title={"Explora Nuestra Colección de Cuyes"} />
+          title={"Sobre Nosotros"} />
+      </Section>
+      <Section>
+        <SectionHeader
+          title={"Nuestra Colección de Cuyes"} />
         <section className="sectionGallery">
           {
             firstSixProducts.map((product) => (
@@ -47,13 +51,34 @@ function App() {
       <Section>
         <article className="sectionParagraph">
           <div className="backgroundIcon">
-            <i className="fa-solid fa-paw-simple icon1"></i>
-            <i className="fa-solid fa-paw-simple icon2"></i>
+            <i className="fa-regular fa-globe icon1"></i>
+            <i className="fa-regular fa-globe icon2"></i>
           </div>
-          <h3 className="sectionParagraph-title">Comprometidos con el Bienestar</h3>
-          <p className="sectionParagraph-paragraph">En Huanquita de Oro, nuestra misión es brindar los servicios de mayor calidad para asegurar el bienestar y la felicidad de nuestros adorables cuyes. Desde la crianza hasta la entrega, nos esforzamos por proporcionar una experiencia excepcional para ti y tus nuevos compañeros peludos. Juntos, creamos un hogar donde la alegría y el cuidado son fundamentales. ¡Bienvenido a un mundo dedicado a la felicidad de nuestros cuyes!.</p>
-          <ButtonPrimary text={"Quiero saber mas"}></ButtonPrimary>
+          <h3 className="sectionParagraph-title">Nuestro Compromiso con Huancayo</h3>
+          <p className="sectionParagraph-paragraph">Nos enorgullece servir a la comunidad de Huancayo como nuestro mercado objetivo principal. Nuestra dedicación a esta ciudad nos permite ofrecer cuyes reproductores de calidad y soporte personalizado a criadores locales y a aquellos que buscan mejorar sus razas.</p>
         </article>
+      </Section>
+      <Section>
+        <SectionHeader
+          title={"Testimonios de Nuestros Clientes"}
+          paragraph={"Testimonios sinceros que capturan la felicidad que experimentan con nuestros servicios."} />
+        <section className="sectionGallery">
+          {
+            testimonials.map((testimonial) => (
+              <Card key={testimonial.id}>
+                <div className="card-qualification">
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                  <i className="fa-solid fa-star"></i>
+                </div>
+                <p className="card-comment">"{testimonial.comment}"</p>
+                <span className="card-author">{testimonial.author}</span>
+              </Card>
+            ))
+          }
+        </section>
       </Section>
       <Section>
         <SectionHeader
@@ -83,28 +108,6 @@ function App() {
             className="cardInfo-image"
             src="https://i.postimg.cc/GtHrH4bM/cuy3.png" />
         </article>
-      </Section>
-      <Section>
-        <SectionHeader
-          title={"Descubre lo que Nuestros Clientes Aman de Nosotros"}
-          paragraph={"Explora testimonios sinceros que capturan la felicidad que nuestros clientes experimentan con nuestros servicios."} />
-        <section className="sectionGallery">
-          {
-            testimonials.map((testimonial) => (
-              <Card key={testimonial.id}>
-                <div className="card-qualification">
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                  <i className="fa-solid fa-star"></i>
-                </div>
-                <p className="card-comment">"{testimonial.comment}"</p>
-                <span className="card-author">{testimonial.author}</span>
-              </Card>
-            ))
-          }
-        </section>
       </Section>
       <Footer
         logo={"Huanquita de Oro"}
