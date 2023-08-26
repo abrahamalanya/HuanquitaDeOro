@@ -24,12 +24,12 @@
   box-sizing: border-box;
 }
 
-body {
+#root {
   display: grid;
   grid-template-columns: 1fr min(1200px, 90%) 1fr;
 }
 
-body > * {
+#root > * {
   grid-column: 2;
 }
 
