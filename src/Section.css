@@ -1,5 +1,5 @@
 .section {
-  padding: 6rem 0 4rem 0;
+  padding-bottom: 10rem;
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
@@ -26,6 +26,43 @@
 
 .link:hover {
   transform: scale(1.1);
+}
+
+/* section-about */
+.sectionAbout {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.sectionAbout-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.sectionAbout-skills {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.sectionAbout-skills .skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sectionAbout-skills .skill-text {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.sectionAbout-image img {
+  width: 100%;
+  border-radius: 15px;
 }
 
 /* section-services */

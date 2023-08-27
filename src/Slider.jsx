@@ -7,7 +7,7 @@ export function Slider({ title, description, image=""}) {
       <article className="sliderContent">
         <h2 className="sliderContent-title">{ title }</h2>
         <p className="sliderContent-paragraph">{ description }</p>
-        <ButtonPrimary text={ "Contactarse" }></ButtonPrimary>
+        <ButtonPrimary />
       </article>
     </section>
   )

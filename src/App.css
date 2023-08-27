@@ -1,14 +1,16 @@
 .blackCape {
-  grid-column: 1;
-  background-color: rgba(0, 0, 0, 0.8);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: 5;
 }
 
+.vh-10 {
+  height: 10vh;
+}
+
 .sliderImage {
-  grid-column: 1;
   width: 100%;
   height: 100%;
   position: absolute;

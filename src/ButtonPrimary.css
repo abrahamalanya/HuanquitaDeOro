@@ -3,7 +3,12 @@
   letter-spacing: 1px;
   border: none;
   background-color: var(--color-primary);
+  color: #000;
   padding: 15px 25px;
   border-radius: 30px;
   cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.1);
 }

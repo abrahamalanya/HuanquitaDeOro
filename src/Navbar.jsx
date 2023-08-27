@@ -1,14 +1,13 @@
-import "./Navbar.css"
+import "./Navbar.css";
+import { Link } from "./Link.jsx";
 
 export function Navbar() {
   return (
     <nav className="navbar">
       <ul className="nav-list">
-        <li>Nosotros</li>
-        <li>Servicios</li>
-        <li>Shop</li>
-        <li>Blog</li>
-        <li>Contact</li>
+        <li>
+          <Link to='/sobre-nosotros'>Sobre Nosotros</Link>
+        </li>
       </ul>
       <span className="nav-action">=</span>
     </nav>
