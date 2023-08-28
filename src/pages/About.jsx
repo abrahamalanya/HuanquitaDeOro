@@ -8,35 +8,46 @@ import { Footer } from "../Footer.jsx";
 export function About() {
   return (
     <>
-      <div className="blackCape vh-80"></div>
-      <article className="sliderImage vh-80">
+      <div className="blackCape vh-70"></div>
+      <article className="sliderImage vh-70">
         <img className="sliderImage-img" src="https://images.unsplash.com/photo-1643883229108-4ed686b10963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80" />
       </article>
       <Header />
       <Slider
-        classAdd={"vh-70"}
+        classAdd={"vh-60"}
         title={"Sobre Nosotros"} />
-      <Section>
-        <SectionHeader title={"Nuestra historia"} />
-        <section className="paragraph">
+      <SectionHeader title={"Nuestra historia"} />
+      <Section classAdd={"section-col2"}>
+        <article className="paragraph pe-20">
           <p>Desde los humildes comienzos en el año 2003, "Huanquita de Oro" ha trazado un viaje apasionante y lleno de logros en la industria de la "Crianza de cuyes reproductores". Lo que comenzó como una visión compartida por un pequeño grupo de soñadores, rápidamente se convirtió en una realidad con cada paso firme y audaz que dimos.</p>
           <p>Nuestra fundadora, Evelyn, inspirada por su pasión por la "Crianza de cuyes reproductores", estableció las bases de lo que hoy es una empresa líder reconocida en todo el mundo. Con un equipo de mentes creativas y apasionadas, hemos llevado nuestras ideas al límite, superando obstáculos y desafiando las expectativas.</p>
-          <p>A medida que crecíamos, nos dimos cuenta de que nuestra verdadera riqueza radicaba en las relaciones que construíamos con cada cliente, socio y colaborador. Cada paso del camino ha estado marcado por la colaboración y la confianza, y hemos sido testigos de cómo nuestras soluciones han impulsado el éxito de más de [número] de clientes.</p>
-          <p>La búsqueda constante de la excelencia ha sido nuestro motor. Nos enorgullecemos de haber alcanzado [número] de premios y reconocimientos, pero nuestro mayor logro es la sonrisa en el rostro de aquellos a quienes servimos. Hemos crecido y evolucionado, adoptando tecnologías innovadoras y abrazando la sustentabilidad en cada aspecto de nuestra operación.</p>
-          <p>Pero más allá de los números y las estadísticas, nuestra historia es una historia de pasión, determinación y un compromiso incansable de superar las expectativas. Hemos aprendido que cada desafío es una oportunidad y que cada hito es solo un trampolín hacia el siguiente nivel.</p>
-          <p>Hoy, "Huanquita de Oro" se erige como un faro de inspiración para la industria de la "Crianza de cuyes reproductores". Con un equipo dedicado, una base de clientes creciente y una visión audaz hacia el futuro, estamos emocionados por lo que vendrá a continuación en nuestro viaje. Únete a nosotros mientras continuamos creando historias de éxito y dejando una huella duradera en el mundo de la "Crianza de cuyes reproductores".</p>
-        </section>
+        </article>
+        <article className="gallery">
+          <img src="https://images.unsplash.com/photo-1643883229108-4ed686b10963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80"
+            alt=""
+            className="gallery-img1"/>
+          <img src="https://images.unsplash.com/photo-1643883229108-4ed686b10963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80"
+            alt=""
+            className="gallery-img2"/>
+          <img src="https://images.unsplash.com/photo-1643883229108-4ed686b10963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80"
+            alt=""
+            className="gallery-img3"/>
+          <img src="https://images.unsplash.com/photo-1643883229108-4ed686b10963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80"
+            alt=""
+            className="gallery-img4"/>
+          <img src="https://images.unsplash.com/photo-1643883229108-4ed686b10963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80"
+            alt=""
+            className="gallery-img5"/>
+        </article>
       </Section>
       <Section classAdd={"section-col2"}>
-        <article className="vision">
-          <i className="fa-regular fa-eye-low-vision"></i>
-          <h3>Visión</h3>
-          <p>"Ser reconocidos como la referencia líder en genética de cuyes reproductores, impulsando la excelencia en la crianza y fortaleciendo la industria a nivel nacional."</p>
+        <article className="section-container">
+          <h3 className="subtitle"><i className="fa-regular fa-eye-low-vision"></i> Visión</h3>
+          <p className="paragraph">"Ser reconocidos como la referencia líder en genética de cuyes reproductores, impulsando la excelencia en la crianza y fortaleciendo la industria a nivel nacional."</p>
         </article>
-        <article className="mission">
-          <i className="fa-regular fa-rectangles-mixed"></i>
-          <h3>Mision</h3>
-          <p>"En Huanquita de Oro, nos dedicamos a proporcionar cuyes reproductores de la más alta calidad, respaldados por genética excepcional y cuidado responsable. Nuestra misión es impulsar el éxito de criadores y amantes de los cuyes, ofreciendo productos que transforman la cría y contribuyen al bienestar de estos adorables animales. A través de nuestro enfoque en la innovación, la ética y la satisfacción del cliente, trabajamos para elevar los estándares de la industria y fomentar una comunidad de criadores comprometidos con la excelencia."</p>
+        <article className="section-container">
+          <h3 className="subtitle"><i className="fa-regular fa-rectangles-mixed"></i> Mision</h3>
+          <p className="paragraph">"En Huanquita de Oro, nos dedicamos a proporcionar cuyes reproductores de la más alta calidad, respaldados por genética excepcional y cuidado responsable. Nuestra misión es impulsar el éxito de criadores y amantes de los cuyes, ofreciendo productos que transforman la cría y contribuyen al bienestar de estos adorables animales. A través de nuestro enfoque en la innovación, la ética y la satisfacción del cliente, trabajamos para elevar los estándares de la industria y fomentar una comunidad de criadores comprometidos con la excelencia."</p>
         </article>
       </Section>
       <Section>

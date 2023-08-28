@@ -91,6 +91,30 @@ a:hover {
   text-align: justify;
 }
 
+.fs-xs {
+  font-size: var(--fs-xs);
+}
+
+.fs-s {
+  font-size: var(--fs-s);
+}
+
+.fs-m {
+  font-size: var(--fs-m);
+}
+
+.fs-l {
+  font-size: var(--fs-l);
+}
+
+.fs-xl {
+  font-size: var(--fs-xl);
+}
+
+.fs-xxl {
+  font-size: var(--fs-xxl);
+}
+
 .vh-10 {
   height: 10vh;
 }
@@ -169,6 +193,66 @@ a:hover {
 
 .w-100 {
   width: 100%;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-30 {
+  padding: 30px;
+}
+
+.pe-10 {
+  padding-right: 10px;
+}
+
+.pe-20 {
+  padding-right: 20px;
+}
+
+.pe-30 {
+  padding-right: 30px;
+}
+
+.ps-10 {
+  padding-left: 10px;
+}
+
+.ps-20 {
+  padding-left: 20px;
+}
+
+.ps-30 {
+  padding-left: 30px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
 }
 
 @media (prefers-color-scheme: light) {
