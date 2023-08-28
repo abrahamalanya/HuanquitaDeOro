@@ -7,7 +7,7 @@ export function navigate(href) {
 }
 
 export function Link({ target, to, ...props }) {
-  const handleClick = () => {
+  const handleClick = (event) => {
     event.preventDefault()
     navigate(to)
   }

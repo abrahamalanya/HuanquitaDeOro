@@ -2,7 +2,6 @@
   color: white;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 90vh;
   align-items: center;
   justify-items: center;
   position: relative;
@@ -15,13 +14,6 @@
   align-items: center;
   gap: 25px;
   z-index: 100;
-}
-
-.sliderContent-title {
-  text-align: center;
-  font-size: 3.5rem;
-  font-weight: bold;
-  line-height: 1.1;
 }
 
 .sliderContent-paragraph {

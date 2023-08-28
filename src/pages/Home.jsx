@@ -7,6 +7,7 @@ import { Card } from "../Card.jsx";
 import { CardDetalle } from "../CardDetalle.jsx";
 import { ButtonPrimary } from "../ButtonPrimary.jsx";
 import { CustomIcon } from "../CustomIcon.jsx";
+import { Link } from "../Link.jsx";
 import data from '../data.json';
 
 const firstSixServices = data.services.slice(0, 6);
@@ -16,19 +17,21 @@ const testimonials = data.testimonials;
 export function Home() {
   return (
     <>
-      <div className="blackCape"></div>
+      <div className="blackCape vh-100"></div>
       <article className="sliderImage">
         <img className="sliderImage-img" src="https://images.unsplash.com/photo-1602580184896-799eb5029eee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80" />
       </article>
       <Header></Header>
       <Slider
+        classAdd={"vh-90"}
         title={"Cuyes Reproductores de Éxito"}
-        description={"Somos expertos en cuyes reproductores de alta genética, brindando calidad y éxito a criadores en Huancayo."}
-        image={"https://images.unsplash.com/photo-1602580184896-799eb5029eee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"} />
+        description={"Somos expertos en cuyes reproductores de alta genética, brindando calidad y éxito a criadores en Huancayo."}>
+        <ButtonPrimary />
+      </Slider>
       <Section>
         <SectionHeader title={"Sobre Nosotros"} />
-        <section className="sectionAbout">
-          <article className="sectionAbout-description">
+        <section className="section-col2">
+          <article className="sectionAbout-description paragraph">
             <p>Nuestra dedicación a la genética responsable y al cuidado experto asegura que nuestros cuyes reproductores sean ejemplares de la más alta calidad.</p>
             <p>Nos enorgullecemos de mantener una dedicación inquebrantable hacia la genética responsable y el cuidado experto. Este enfoque meticuloso garantiza que nuestros cuyes reproductores se distingan como auténticos ejemplares de la más alta calidad.</p>
             <div className="sectionAbout-skills">
@@ -45,12 +48,10 @@ export function Home() {
                 <p className="skill-text">10 Trofeos</p>
               </div>
             </div>
-            <section className="sectionLink">
-              <a href="/sobre-nosotros" className="link">
-                Conoce nuestra historia
-                <i className="fa-duotone fa-arrow-right link-icon"></i>
-              </a>
-            </section>
+            <Link to='/sobre-nosotros'>
+              Conoce nuestra historia
+              <i className="fa-duotone fa-arrow-right"></i>
+            </Link>
           </article>
           <article className="sectionAbout-image">
             <img src="https://images.unsplash.com/photo-1643883229108-4ed686b10963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80" alt="granja-huanquita-de-oro" />

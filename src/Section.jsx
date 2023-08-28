@@ -1,8 +1,9 @@
 import "./Section.css"
 
-export function Section({ children }) {
+export function Section({ children, classAdd = "" }) {
+  const classComplete = `section ${classAdd}`
   return (
-    <section className="section">
+    <section className={classComplete}>
       {children}
     </section>
   )

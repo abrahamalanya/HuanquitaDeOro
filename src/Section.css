@@ -29,11 +29,6 @@
 }
 
 /* section-about */
-.sectionAbout {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-}
-
 .sectionAbout-description {
   display: flex;
   flex-direction: column;
