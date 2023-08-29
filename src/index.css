@@ -1,5 +1,6 @@
 :root {
-  --color-primary: gold;
+  --color-primary: rgb(255, 215, 0);
+  --color-primary-opacity: rgba(255, 215, 0, 0.3);
   --black: #242424;
   --white: #fff;
 
@@ -53,10 +54,53 @@ a:hover {
   color: var(--color-primary);
 }
 
-/* global */
+/* ==========global========== */
 .section-col2 {
   display: grid;
   grid-template-columns: repeat(2, calc(100% / 2));
+}
+
+.cardForm > form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label,
+input,
+textarea {
+  font-size: var(--fs-m);
+}
+
+input,
+textarea {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid var(--color-primary-opacity);
+  box-shadow: 1px 1px 10px 1px var(--color-primary-opacity);
+}
+
+input[type=submit] {
+  background-color: var(--color-primary);
+  font-weight: 900;
+}
+
+input:hover,
+textarea:hover {
+  border: 1px solid var(--color-primary);
+}
+
+.cardImage {
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.cardImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .title {
@@ -73,6 +117,14 @@ a:hover {
 
 .paragraph {
   font-size: var(--fs-m);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.text-white {
+  color: var(--white);
 }
 
 .text-center {
@@ -207,6 +259,14 @@ a:hover {
   padding: 30px;
 }
 
+.p-40 {
+  padding: 40px;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
 .pe-10 {
   padding-right: 10px;
 }
@@ -217,6 +277,14 @@ a:hover {
 
 .pe-30 {
   padding-right: 30px;
+}
+
+.pe-40 {
+  padding-right: 40px;
+}
+
+.pe-50 {
+  padding-right: 50px;
 }
 
 .ps-10 {
@@ -231,6 +299,14 @@ a:hover {
   padding-left: 30px;
 }
 
+.ps-40 {
+  padding-left: 40px;
+}
+
+.ps-50 {
+  padding-left: 50px;
+}
+
 .pt-10 {
   padding-top: 10px;
 }
@@ -241,6 +317,14 @@ a:hover {
 
 .pt-30 {
   padding-top: 30px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-50 {
+  padding-top: 50px;
 }
 
 .pb-10 {
@@ -255,6 +339,14 @@ a:hover {
   padding-bottom: 30px;
 }
 
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: var(--black);
@@ -264,5 +356,15 @@ a:hover {
   .cardInfo {
     background-color: var(--black);
     color: var(--white);
+  }
+}
+
+@media (max-width: 768px) {
+  .section-col2 {
+    grid-template-columns: 1fr;
+  }
+
+  .cardForm {
+    padding: 0 !important;
   }
 }

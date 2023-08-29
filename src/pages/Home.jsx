@@ -21,7 +21,7 @@ export function Home() {
       <article className="sliderImage">
         <img className="sliderImage-img" src="https://images.unsplash.com/photo-1602580184896-799eb5029eee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80" />
       </article>
-      <Header></Header>
+      <Header classAdd={ "text-white" }></Header>
       <Slider
         classAdd={"vh-90"}
         title={"Cuyes Reproductores de Éxito"}

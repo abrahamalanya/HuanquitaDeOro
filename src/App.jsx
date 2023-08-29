@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { EVENTS } from "./consts.js";
 
+import './App.css';
 import { Home } from "./pages/Home.jsx";
 import { About } from "./pages/About.jsx";
-import './App.css';
+import { Contact } from "./pages/Contact.jsx";
 
 const routes = [
   {
@@ -12,6 +13,10 @@ const routes = [
   },
   {
     path: "/sobre-nosotros",
+    Component: About
+  },
+  {
+    path: "/contacto",
     Component: About
   }
 ]
@@ -48,6 +53,10 @@ function App() {
         {
           path: "/sobre-nosotros",
           Component: About
+        },
+        {
+          path: "/contacto",
+          Component: Contact
         }
       ]} />
     </>

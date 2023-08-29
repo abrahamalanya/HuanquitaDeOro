@@ -8,6 +8,9 @@ export function Navbar() {
         <li>
           <Link to='/sobre-nosotros'>Sobre Nosotros</Link>
         </li>
+        <li>
+          <Link to='/contacto'>Contacto</Link>
+        </li>
       </ul>
       <span className="nav-action">=</span>
     </nav>
