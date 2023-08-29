@@ -1,17 +1,14 @@
-import { ButtonPrimary } from "./ButtonPrimary";
 import "./Slider.css"
 
-export function Slider({ title, description, image}) {
+export function Slider({ title, description = "", classAdd = "", children }) {
+  const classComplete = `slider ${classAdd}`;
+
   return (
-    <section className="slider">
+    <section className={classComplete}>
       <article className="sliderContent">
-        <h2 className="sliderContent-title">{ title }</h2>
+        <h2 className="title text-center">{title}</h2>
         <p className="sliderContent-paragraph">{ description }</p>
-        <ButtonPrimary text={ "Comprar" }></ButtonPrimary>
-      </article>
-      <article className="sliderImage">
-        <i className="fa-solid fa-leafy-green sliderImage-icon"></i>
-        <img className="sliderImage-img" src={image} />
+        { children }
       </article>
     </section>
   )
