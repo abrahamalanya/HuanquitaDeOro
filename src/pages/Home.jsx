@@ -14,7 +14,7 @@ const firstSixServices = data.services.slice(0, 6);
 const firstSixProducts = data.products.slice(0, 6);
 const testimonials = data.testimonials;
 
-export function Home() {
+export default function Home() {
   return (
     <>
       <div className="blackCape vh-100"></div>

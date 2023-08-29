@@ -3,11 +3,10 @@ import { Footer } from "../Footer.jsx";
 import { Section } from "../Section.jsx";
 import { SectionHeader } from "../SectionHeader.jsx";
 
-export function Contact() {
+export default function Contact() {
   return (
     <>
       <Header></Header>
-      
       <Section classAdd="section-col2">
         <article className="cardImage">
           <img

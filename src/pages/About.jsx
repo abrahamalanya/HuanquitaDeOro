@@ -5,7 +5,7 @@ import { SectionHeader } from "../SectionHeader.jsx";
 import { ButtonPrimary } from "../ButtonPrimary.jsx";
 import { Footer } from "../Footer.jsx";
 
-export function About() {
+export default function About() {
   return (
     <>
       <div className="blackCape vh-70"></div>
