@@ -10,11 +10,12 @@ import { CustomIcon } from "../CustomIcon.jsx";
 import { Link } from "../Link.jsx";
 import data from '../data.json';
 
+const company = data.company;
 const firstSixServices = data.services.slice(0, 6);
 const firstSixProducts = data.products.slice(0, 6);
 const testimonials = data.testimonials;
 
-export function Home() {
+export default function Home() {
   return (
     <>
       <div className="blackCape vh-100"></div>
@@ -32,26 +33,23 @@ export function Home() {
         <SectionHeader title={"Sobre Nosotros"} />
         <section className="section-col2">
           <article className="sectionAbout-description paragraph">
-            <p>Nuestra dedicación a la genética responsable y al cuidado experto asegura que nuestros cuyes reproductores sean ejemplares de la más alta calidad.</p>
-            <p>Nos enorgullecemos de mantener una dedicación inquebrantable hacia la genética responsable y el cuidado experto. Este enfoque meticuloso garantiza que nuestros cuyes reproductores se distingan como auténticos ejemplares de la más alta calidad.</p>
+            <p>{ company.about }</p>
             <div className="sectionAbout-skills">
               <div className="skill">
                 <CustomIcon icon={"building"} />
-                <p className="skill-text">Desde 2003</p>
+                <p className="skill-text">Desde 2016</p>
               </div>
               <div className="skill">
                 <CustomIcon icon={"wreath-laurel"} />
                 <p className="skill-text">100% Ecológico</p>
               </div>
-              <div className="skill">
-                <CustomIcon icon={"trophy-star"} />
-                <p className="skill-text">10 Trofeos</p>
-              </div>
             </div>
-            <Link to='/sobre-nosotros'>
+          <section className="sectionLink">
+            <Link to='/sobre-nosotros' className="link">
               Conoce nuestra historia
-              <i className="fa-duotone fa-arrow-right"></i>
+              <i className="fa-duotone fa-arrow-right link-icon"></i>
             </Link>
+          </section>
           </article>
           <article className="sectionAbout-image">
             <img src="https://images.unsplash.com/photo-1643883229108-4ed686b10963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1973&q=80" alt="granja-huanquita-de-oro" />

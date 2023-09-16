@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 
 ## Requerimientos
 - [x] Agregar página de Contacto
+- [] Corregir las rutas de la página

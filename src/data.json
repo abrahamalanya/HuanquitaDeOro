@@ -1,4 +1,10 @@
 {
+  "company": {
+    "about": "Nuestra dedicación es a la crianza de cuyes de Tipo I (pelaje lacio y corto, aumento de peso rápido) Línea Mantaro (roseta en la cabeza, pelaje lacio, precocidad y ganancia de peso) Línea Wanka (desarrollado por la UNCP, precocidad, prolifero) con un tipo de alimentación mixta (forraje+alimento concentrado) asegurando así cuyes reproductores de alta calidad genética. Nos orgullecemos de mantener auténticos ejemplares.",
+    "history": "Granja de cuyes Huanquita de Oro fue creado en el año 2016 como un pequeño negocio familiar empezando con 50 cuyes reproductores cuyo objetivo fue incrementar el plantel de cuyes, conocer el manejo y la rentabilidad. Pasaron años con grandes experiencias de aprendizaje y para el 2019 la empresa contaba con 1000 reproductores. Los inicios de la pandemia Covid-19 influyeron de forma positiva ya que al conocerse que la carne de cuy era un super alimento que fortalecía la inmunidad de las personas, la mayoría de las familias comenzaron a emprender la crianza de cuy y fue así como empezaron a incrementar sus ventas. Actualmente cuentan con 3000 reproductores de alta calidad genética, basado en un equipo de mentes creativas y apasionadas, llevando nuestras ideas al límite, superando obstáculos y desafiando expectativas.",
+    "mission": "Criar, producir y comercializar animales reproductores de la más alta calidad genética, impulsando al éxito de criadores de cuy y brindando un producto que exceda la expectativa de nuestros clientes.",
+    "vision": "Ser una empresa líder en el rubro de crianza de reproductores de cuy, siendo reconocidos por nuestros colaboradores, clientes competidores y proveedores"
+  },
   "services": [
     {
       "id": 1,
